@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ocheverse</title>
+<link href="assets/img/icon.png" rel="icon">
+<link href="assets/img/icon.png" rel="apple-touch-icon">
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #0A192F;
+  }
+
+  .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeOut 5s ease-in-out;
+  }
+
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="logo">
+    <img src="assets/img/Artboard 2-1.png" alt="Company Logo" width="350">
+  </div>
+
+  <script>
+    setTimeout(function() {
+      window.location.href = "home.html";
+    }, 4000);
+  </script>
+</body>
+</html>
